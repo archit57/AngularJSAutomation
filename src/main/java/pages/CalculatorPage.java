@@ -41,6 +41,7 @@ public class CalculatorPage {
 		ngWebDriver = new NgWebDriver(jsDriver);
 		System.out.println("Launching the app");
 		driver.get("http://localhost:3456/");
+		System.out.println("wait for rendering");
 		ngWebDriver.waitForAngularRequestsToFinish();
 
 	}
