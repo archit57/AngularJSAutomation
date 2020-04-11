@@ -43,6 +43,7 @@ public class CalculatorPage {
 		driver.get("http://localhost:3456/");
 		System.out.println("wait for rendering");
 		ngWebDriver.waitForAngularRequestsToFinish();
+		System.out.println("Now Launching test cases");
 
 	}
 
