@@ -39,6 +39,7 @@ public class CalculatorPage {
 		driver = new ChromeDriver(options);
 		jsDriver = (JavascriptExecutor) driver;
 		ngWebDriver = new NgWebDriver(jsDriver);
+		System.out.println("Launching the app");
 		driver.get("http://localhost:3456/");
 		ngWebDriver.waitForAngularRequestsToFinish();
 
